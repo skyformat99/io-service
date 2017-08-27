@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -g -Wall -std=c++11 -fPIC  -shared -Wl,-soname,libMaxIOService.so.1 -o ../../lib/libMaxIOService.so.1.0.0 CMakeFiles/MaxIOService.dir/async/future.cpp.o CMakeFiles/MaxIOService.dir/async/io_context.cpp.o CMakeFiles/MaxIOService.dir/async/scheduler.cpp.o CMakeFiles/MaxIOService.dir/logger/logger.cpp.o -levent -levent_pthreads 
